@@ -1,6 +1,6 @@
 package com.test.jokeapp.domain.entity
 
-enum class TypeEnum{
-    SINGLE,
-    TWOPART
+enum class TypeEnum(val value: String){
+    SINGLE("single"),
+    TWOPART("twopart")
 }
