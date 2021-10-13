@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/purple_500"/>
+    <item>
+        <bitmap
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:src="@drawable/ic_laugh" />
+    </item>
+</layer-list>
