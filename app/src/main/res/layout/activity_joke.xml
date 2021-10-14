@@ -65,6 +65,7 @@
                 android:layout_marginTop="16dp"
                 android:textColor="@color/text_secondary"
                 android:textSize="30sp"
+                android:textStyle="bold"
                 android:textAlignment="center"
                 tools:text="I was already on the highway when I noticed I forgot my car at home."/>
 
@@ -80,6 +81,17 @@
             android:src="@drawable/ic_refresh"
             android:contentDescription="@string/refresh"
             android:tint="@color/white"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone"
+            tools:visibility="visible"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
